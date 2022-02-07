@@ -4,7 +4,7 @@ Item {
     id: demoReact
     Text {
         id: reactText
-        text: "终于可以显示了"
+        text: "终于可以显示了，哈哈哈"
         color: "red"
     }
 }
