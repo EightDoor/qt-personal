@@ -11,7 +11,7 @@ Rectangle {
             width: root.menuWidth
             height: root.height
             border.width: 1
-            border.color: Theme.green()
+            border.color: Theme.green
         }
     }
 }
