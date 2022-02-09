@@ -14,7 +14,8 @@ qt_add_executable(appqt_personal_project
 qt_add_qml_module(appqt_personal_project
     URI qt_personal_project
     VERSION 1.0
-    QML_FILES main.qml demo/DemoRect.qml
+    QML_FILES
+    main.qml
 )
 
 set_target_properties(appqt_personal_project PROPERTIES
