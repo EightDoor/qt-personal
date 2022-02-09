@@ -10,6 +10,7 @@ Column {
         id: header
         height: headerHeight
         width: root.width
+        menuWidth: content.menuWidth
     }
 
     Content {
