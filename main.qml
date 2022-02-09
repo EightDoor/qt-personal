@@ -9,8 +9,8 @@ Window {
     minimumWidth: 640
     minimumHeight: 480
     Base {
-        id: layout
-        width: parent.wi5dth
+        id: baseLayout
+        width: parent.width
         height: parent.height
     }
 }

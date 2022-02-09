@@ -1,6 +1,6 @@
 import QtQuick
 
 Rectangle {
-    border.color: "blue"
+    border.color: "green"
     border.width: 1
 }
