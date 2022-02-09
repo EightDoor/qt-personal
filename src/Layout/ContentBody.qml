@@ -1,5 +1,6 @@
-import QtQuick 2.0
+import QtQuick
 
-Item {
-
+Rectangle {
+    border.color: "blue"
+    border.width: 1
 }

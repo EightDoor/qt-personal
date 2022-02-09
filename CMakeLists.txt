@@ -19,13 +19,16 @@ qt_add_qml_module(appqt_personal_project
     VERSION 1.0
     QML_FILES
     main.qml
-
     src/Layout/Header.qml
     src/Layout/Footer.qml
     src/Layout/Content.qml
     src/Layout/ContentMenu.qml
     src/Layout/ContentBody.qml
     src/Layout/Base.qml
+    src/Layout/MusicDetail.qml
+    src/Theme/BaseTheme.qml
+
+    src/Comm/Theme.mjs
 )
 
 set_target_properties(appqt_personal_project PROPERTIES

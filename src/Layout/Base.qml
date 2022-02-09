@@ -2,7 +2,9 @@ import QtQuick
 
 Column {
     id: root
+    // 顶部高度
     property int headerHeight: 50
+    // 底部高度
     property int footerHeight: 50
     Header {
         id: header
