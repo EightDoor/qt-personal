@@ -26,7 +26,6 @@ qt_add_qml_module(appqt_personal_project
     src/Layout/ContentBody.qml
     src/Layout/Base.qml
     src/Layout/MusicDetail.qml
-    src/Theme/BaseTheme.qml
 
     src/Comm/Theme.mjs
 )
