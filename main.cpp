@@ -1,11 +1,14 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQuickStyle>
 
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
+    // 设置默认主题
+    QQuickStyle::setStyle("Material");
 
     QQmlApplicationEngine engine;
 
